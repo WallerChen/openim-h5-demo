@@ -24,7 +24,7 @@ import { showLoadingToast } from "vant";
 import { ToastWrapperInstance } from "vant/lib/toast/types";
 import { feedbackToast } from "@/utils/common";
 
-import messageRing from "@assets/audio/newMsg.mp3";
+// import messageRing from "@assets/audio/newMsg.mp3";
 import { BusinessAllowType } from "@/api/data";
 
 export function useGlobalEvent() {
@@ -248,7 +248,7 @@ export function useGlobalEvent() {
     if (!audioEl) {
       audioEl = document.createElement("audio");
     }
-    audioEl.src = messageRing;
+    // audioEl.src = messageRing;
     audioEl.play();
   };
 
